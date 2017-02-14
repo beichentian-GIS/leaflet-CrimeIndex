@@ -1,0 +1,4 @@
+1. 
+Wilmington, DE(2), Henderson, NV(2) and Raleigh, NC(2) are the second most populous cities for the corresponding states. For some reasons, there are no recorded crime rate data for the three states' NO.1 most populous cities.
+2.
+For some reasons, Hawaii's and Kentucky's first and second most populous cities have no recorded crime rate data. Therefore, there will be no city points showned for these two states on the web map. 

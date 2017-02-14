@@ -1,0 +1,1178 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="USBigCitiesCrimeGeo" id="USBigCitiesCrimeGeo">
+	<SimpleField name="City" type="string"></SimpleField>
+	<SimpleField name="Population" type="string"></SimpleField>
+	<SimpleField name="Cri_2001" type="string"></SimpleField>
+	<SimpleField name="Cri_2002" type="string"></SimpleField>
+	<SimpleField name="Cri_2003" type="string"></SimpleField>
+	<SimpleField name="Cri_2004" type="string"></SimpleField>
+	<SimpleField name="Cri_2005" type="string"></SimpleField>
+	<SimpleField name="Cri_2006" type="float"></SimpleField>
+	<SimpleField name="Cri_2007" type="string"></SimpleField>
+	<SimpleField name="Cri_2008" type="float"></SimpleField>
+	<SimpleField name="Cri_2009" type="float"></SimpleField>
+	<SimpleField name="Cri_2010" type="string"></SimpleField>
+	<SimpleField name="Cri_2011" type="string"></SimpleField>
+	<SimpleField name="Cri_2012" type="string"></SimpleField>
+	<SimpleField name="Cri_2013" type="string"></SimpleField>
+	<SimpleField name="Cri_2014" type="string"></SimpleField>
+	<SimpleField name="Cri_2015" type="string"></SimpleField>
+	<SimpleField name="latitude" type="float"></SimpleField>
+	<SimpleField name="longitude" type="float"></SimpleField>
+</Schema>
+<Folder><name>USBigCitiesCrimeGeo</name>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#USBigCitiesCrimeGeo">
+		<SimpleData name="City">Milwaukee</SimpleData>
+		<SimpleData name="Population">599,642</SimpleData>
+		<SimpleData name="Cri_2001">669.1</SimpleData>
+		<SimpleData name="Cri_2002">676.3</SimpleData>
+		<SimpleData name="Cri_2003">627.4</SimpleData>
+		<SimpleData name="Cri_2004">523</SimpleData>
+		<SimpleData name="Cri_2005">600.5</SimpleData>
+		<SimpleData name="Cri_2006">719.7</SimpleData>
+		<SimpleData name="Cri_2007">753.2</SimpleData>
+		<SimpleData name="Cri_2008">657.2</SimpleData>
+		<SimpleData name="Cri_2009">605.8</SimpleData>
+		<SimpleData name="Cri_2010">573.3</SimpleData>
+		<SimpleData name="Cri_2011">559.9</SimpleData>
+		<SimpleData name="Cri_2012">628.4</SimpleData>
+		<SimpleData name="Cri_2013">640.1</SimpleData>
+		<SimpleData name="Cri_2014">677.5</SimpleData>
+		<SimpleData name="Cri_2015">715.8</SimpleData>
+		<SimpleData name="latitude">43.0418091</SimpleData>
+		<SimpleData name="longitude">-87.9068375</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-87.9068375,43.0418091</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#USBigCitiesCrimeGeo">
+		<SimpleData name="City">Birmingham AL</SimpleData>
+		<SimpleData name="Population">212,247</SimpleData>
+		<SimpleData name="Cri_2001">737.1</SimpleData>
+		<SimpleData name="Cri_2002">755.8</SimpleData>
+		<SimpleData name="Cri_2003">836.8</SimpleData>
+		<SimpleData name="Cri_2004">867.9</SimpleData>
+		<SimpleData name="Cri_2005">916.8</SimpleData>
+		<SimpleData name="Cri_2006">892.6</SimpleData>
+		<SimpleData name="Cri_2007">939.2</SimpleData>
+		<SimpleData name="Cri_2008">927.2</SimpleData>
+		<SimpleData name="Cri_2009">815.4</SimpleData>
+		<SimpleData name="Cri_2010">No Data</SimpleData>
+		<SimpleData name="Cri_2011">885.5</SimpleData>
+		<SimpleData name="Cri_2012">812</SimpleData>
+		<SimpleData name="Cri_2013">770.5</SimpleData>
+		<SimpleData name="Cri_2014">805.6</SimpleData>
+		<SimpleData name="Cri_2015">841</SimpleData>
+		<SimpleData name="latitude">33.5206795</SimpleData>
+		<SimpleData name="longitude">-86.8117599</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-86.8117599,33.5206795</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#USBigCitiesCrimeGeo">
+		<SimpleData name="City">Anchorage</SimpleData>
+		<SimpleData name="Population">301,010</SimpleData>
+		<SimpleData name="Cri_2001">No Data</SimpleData>
+		<SimpleData name="Cri_2002">437.4</SimpleData>
+		<SimpleData name="Cri_2003">424</SimpleData>
+		<SimpleData name="Cri_2004">425.5</SimpleData>
+		<SimpleData name="Cri_2005">435.2</SimpleData>
+		<SimpleData name="Cri_2006">489.6</SimpleData>
+		<SimpleData name="Cri_2007">455.1</SimpleData>
+		<SimpleData name="Cri_2008">438.3</SimpleData>
+		<SimpleData name="Cri_2009">450.2</SimpleData>
+		<SimpleData name="Cri_2010">421.7</SimpleData>
+		<SimpleData name="Cri_2011">398.4</SimpleData>
+		<SimpleData name="Cri_2012">427.1</SimpleData>
+		<SimpleData name="Cri_2013">468.4</SimpleData>
+		<SimpleData name="Cri_2014">466.4</SimpleData>
+		<SimpleData name="Cri_2015">No Data</SimpleData>
+		<SimpleData name="latitude">61.2175598</SimpleData>
+		<SimpleData name="longitude">-149.8583832</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-149.8583832,61.2175598</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#USBigCitiesCrimeGeo">
+		<SimpleData name="City">Little Rock</SimpleData>
+		<SimpleData name="Population">197,706</SimpleData>
+		<SimpleData name="Cri_2001">706.5</SimpleData>
+		<SimpleData name="Cri_2002">875.8</SimpleData>
+		<SimpleData name="Cri_2003">932.4</SimpleData>
+		<SimpleData name="Cri_2004">890.2</SimpleData>
+		<SimpleData name="Cri_2005">914.4</SimpleData>
+		<SimpleData name="Cri_2006">937.3</SimpleData>
+		<SimpleData name="Cri_2007">909.2</SimpleData>
+		<SimpleData name="Cri_2008">775.6</SimpleData>
+		<SimpleData name="Cri_2009">847</SimpleData>
+		<SimpleData name="Cri_2010">814.6</SimpleData>
+		<SimpleData name="Cri_2011">837.8</SimpleData>
+		<SimpleData name="Cri_2012">797.2</SimpleData>
+		<SimpleData name="Cri_2013">791.5</SimpleData>
+		<SimpleData name="Cri_2014">747.5</SimpleData>
+		<SimpleData name="Cri_2015">722.9</SimpleData>
+		<SimpleData name="latitude">34.7486496</SimpleData>
+		<SimpleData name="longitude">-92.2744904</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-92.2744904,34.7486496</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#USBigCitiesCrimeGeo">
+		<SimpleData name="City">Phoenix</SimpleData>
+		<SimpleData name="Population">1,537,058</SimpleData>
+		<SimpleData name="Cri_2001">625.9</SimpleData>
+		<SimpleData name="Cri_2002">621</SimpleData>
+		<SimpleData name="Cri_2003">620.2</SimpleData>
+		<SimpleData name="Cri_2004">573.1</SimpleData>
+		<SimpleData name="Cri_2005">578.3</SimpleData>
+		<SimpleData name="Cri_2006">558.6</SimpleData>
+		<SimpleData name="Cri_2007">546.1</SimpleData>
+		<SimpleData name="Cri_2008">482.1</SimpleData>
+		<SimpleData name="Cri_2009">385.3</SimpleData>
+		<SimpleData name="Cri_2010">367.9</SimpleData>
+		<SimpleData name="Cri_2011">404.9</SimpleData>
+		<SimpleData name="Cri_2012">407.5</SimpleData>
+		<SimpleData name="Cri_2013">397.8</SimpleData>
+		<SimpleData name="Cri_2014">382.4</SimpleData>
+		<SimpleData name="Cri_2015">373.3</SimpleData>
+		<SimpleData name="latitude">33.4482498</SimpleData>
+		<SimpleData name="longitude">-112.075798</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-112.075798,33.4482498</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#USBigCitiesCrimeGeo">
+		<SimpleData name="City">Los Angeles</SimpleData>
+		<SimpleData name="Population">3,928,864</SimpleData>
+		<SimpleData name="Cri_2001">589.9</SimpleData>
+		<SimpleData name="Cri_2002">584.6</SimpleData>
+		<SimpleData name="Cri_2003">552</SimpleData>
+		<SimpleData name="Cri_2004">478.5</SimpleData>
+		<SimpleData name="Cri_2005">408</SimpleData>
+		<SimpleData name="Cri_2006">383.7</SimpleData>
+		<SimpleData name="Cri_2007">356.8</SimpleData>
+		<SimpleData name="Cri_2008">349.1</SimpleData>
+		<SimpleData name="Cri_2009">316.9</SimpleData>
+		<SimpleData name="Cri_2010">293.2</SimpleData>
+		<SimpleData name="Cri_2011">277.4</SimpleData>
+		<SimpleData name="Cri_2012">267.2</SimpleData>
+		<SimpleData name="Cri_2013">244.5</SimpleData>
+		<SimpleData name="Cri_2014">258.6</SimpleData>
+		<SimpleData name="Cri_2015">318.7</SimpleData>
+		<SimpleData name="latitude">34.0534897</SimpleData>
+		<SimpleData name="longitude">-118.2453232</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-118.2453232,34.0534897</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#USBigCitiesCrimeGeo">
+		<SimpleData name="City">Denver</SimpleData>
+		<SimpleData name="Population">663,862</SimpleData>
+		<SimpleData name="Cri_2001">438.4</SimpleData>
+		<SimpleData name="Cri_2002">450.6</SimpleData>
+		<SimpleData name="Cri_2003">486.2</SimpleData>
+		<SimpleData name="Cri_2004">547.1</SimpleData>
+		<SimpleData name="Cri_2005">574.3</SimpleData>
+		<SimpleData name="Cri_2006">490.9</SimpleData>
+		<SimpleData name="Cri_2007">409.7</SimpleData>
+		<SimpleData name="Cri_2008">350.9</SimpleData>
+		<SimpleData name="Cri_2009">361.6</SimpleData>
+		<SimpleData name="Cri_2010">346.2</SimpleData>
+		<SimpleData name="Cri_2011">383.9</SimpleData>
+		<SimpleData name="Cri_2012">385.2</SimpleData>
+		<SimpleData name="Cri_2013">392.4</SimpleData>
+		<SimpleData name="Cri_2014">360.5</SimpleData>
+		<SimpleData name="Cri_2015">402.7</SimpleData>
+		<SimpleData name="latitude">39.7400093</SimpleData>
+		<SimpleData name="longitude">-104.9923019</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-104.9923019,39.7400093</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#USBigCitiesCrimeGeo">
+		<SimpleData name="City">Bridgeport</SimpleData>
+		<SimpleData name="Population">147,612</SimpleData>
+		<SimpleData name="Cri_2001">663.1</SimpleData>
+		<SimpleData name="Cri_2002">617.2</SimpleData>
+		<SimpleData name="Cri_2003">532.6</SimpleData>
+		<SimpleData name="Cri_2004">513.3</SimpleData>
+		<SimpleData name="Cri_2005">582.9</SimpleData>
+		<SimpleData name="Cri_2006">597.2</SimpleData>
+		<SimpleData name="Cri_2007">584.6</SimpleData>
+		<SimpleData name="Cri_2008">588.7</SimpleData>
+		<SimpleData name="Cri_2009">537.5</SimpleData>
+		<SimpleData name="Cri_2010">488</SimpleData>
+		<SimpleData name="Cri_2011">531.6</SimpleData>
+		<SimpleData name="Cri_2012">662.3</SimpleData>
+		<SimpleData name="Cri_2013">440.3</SimpleData>
+		<SimpleData name="Cri_2014">428</SimpleData>
+		<SimpleData name="Cri_2015">347.2</SimpleData>
+		<SimpleData name="latitude">41.181881</SimpleData>
+		<SimpleData name="longitude">-73.1912689</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-73.1912689,41.181881</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#USBigCitiesCrimeGeo">
+		<SimpleData name="City">Wilmington Delaware</SimpleData>
+		<SimpleData name="Population">71,817</SimpleData>
+		<SimpleData name="Cri_2001">704.7</SimpleData>
+		<SimpleData name="Cri_2002">No Data</SimpleData>
+		<SimpleData name="Cri_2003">667.1</SimpleData>
+		<SimpleData name="Cri_2004">No Data</SimpleData>
+		<SimpleData name="Cri_2005">640.1</SimpleData>
+		<SimpleData name="Cri_2006">833.7</SimpleData>
+		<SimpleData name="Cri_2007">725</SimpleData>
+		<SimpleData name="Cri_2008">830.2</SimpleData>
+		<SimpleData name="Cri_2009">780.3</SimpleData>
+		<SimpleData name="Cri_2010">863.4</SimpleData>
+		<SimpleData name="Cri_2011">735</SimpleData>
+		<SimpleData name="Cri_2012">782.5</SimpleData>
+		<SimpleData name="Cri_2013">725.5</SimpleData>
+		<SimpleData name="Cri_2014">736.1</SimpleData>
+		<SimpleData name="Cri_2015">732.2</SimpleData>
+		<SimpleData name="latitude">39.7402306</SimpleData>
+		<SimpleData name="longitude">-75.5508423</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-75.5508423,39.7402306</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#USBigCitiesCrimeGeo">
+		<SimpleData name="City">Jacksonville</SimpleData>
+		<SimpleData name="Population">853,382</SimpleData>
+		<SimpleData name="Cri_2001">580.9</SimpleData>
+		<SimpleData name="Cri_2002">560.2</SimpleData>
+		<SimpleData name="Cri_2003">541.4</SimpleData>
+		<SimpleData name="Cri_2004">509.7</SimpleData>
+		<SimpleData name="Cri_2005">506.8</SimpleData>
+		<SimpleData name="Cri_2006">512.3</SimpleData>
+		<SimpleData name="Cri_2007">583.7</SimpleData>
+		<SimpleData name="Cri_2008">574.9</SimpleData>
+		<SimpleData name="Cri_2009">496.1</SimpleData>
+		<SimpleData name="Cri_2010">420.7</SimpleData>
+		<SimpleData name="Cri_2011">396.3</SimpleData>
+		<SimpleData name="Cri_2012">384</SimpleData>
+		<SimpleData name="Cri_2013">381.4</SimpleData>
+		<SimpleData name="Cri_2014">397.8</SimpleData>
+		<SimpleData name="Cri_2015">377.1</SimpleData>
+		<SimpleData name="latitude">30.3314705</SimpleData>
+		<SimpleData name="longitude">-81.6562195</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-81.6562195,30.3314705</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#USBigCitiesCrimeGeo">
+		<SimpleData name="City">Atlanta</SimpleData>
+		<SimpleData name="Population">456,002</SimpleData>
+		<SimpleData name="Cri_2001">No Data</SimpleData>
+		<SimpleData name="Cri_2002">1056.9</SimpleData>
+		<SimpleData name="Cri_2003">980.1</SimpleData>
+		<SimpleData name="Cri_2004">864.3</SimpleData>
+		<SimpleData name="Cri_2005">797.1</SimpleData>
+		<SimpleData name="Cri_2006">733.8</SimpleData>
+		<SimpleData name="Cri_2007">798.1</SimpleData>
+		<SimpleData name="Cri_2008">728.1</SimpleData>
+		<SimpleData name="Cri_2009">610.1</SimpleData>
+		<SimpleData name="Cri_2010">562.4</SimpleData>
+		<SimpleData name="Cri_2011">727.7</SimpleData>
+		<SimpleData name="Cri_2012">674.1</SimpleData>
+		<SimpleData name="Cri_2013">617.6</SimpleData>
+		<SimpleData name="Cri_2014">607</SimpleData>
+		<SimpleData name="Cri_2015">No Data</SimpleData>
+		<SimpleData name="latitude">33.7483101</SimpleData>
+		<SimpleData name="longitude">-84.3911133</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-84.3911133,33.7483101</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#USBigCitiesCrimeGeo">
+		<SimpleData name="City">Boise</SimpleData>
+		<SimpleData name="Population">374,701</SimpleData>
+		<SimpleData name="Cri_2001">303.8</SimpleData>
+		<SimpleData name="Cri_2002">308.4</SimpleData>
+		<SimpleData name="Cri_2003">305.4</SimpleData>
+		<SimpleData name="Cri_2004">300.1</SimpleData>
+		<SimpleData name="Cri_2005">307.3</SimpleData>
+		<SimpleData name="Cri_2006">286.1</SimpleData>
+		<SimpleData name="Cri_2007">261.3</SimpleData>
+		<SimpleData name="Cri_2008">218.2</SimpleData>
+		<SimpleData name="Cri_2009">211.7</SimpleData>
+		<SimpleData name="Cri_2010">210.6</SimpleData>
+		<SimpleData name="Cri_2011">189.3</SimpleData>
+		<SimpleData name="Cri_2012">195.7</SimpleData>
+		<SimpleData name="Cri_2013">199</SimpleData>
+		<SimpleData name="Cri_2014">196</SimpleData>
+		<SimpleData name="Cri_2015">211.1</SimpleData>
+		<SimpleData name="latitude">43.6069794</SimpleData>
+		<SimpleData name="longitude">-116.1934128</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-116.1934128,43.6069794</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#USBigCitiesCrimeGeo">
+		<SimpleData name="City">Chicago</SimpleData>
+		<SimpleData name="Population">2,722,389</SimpleData>
+		<SimpleData name="Cri_2001">763</SimpleData>
+		<SimpleData name="Cri_2002">746.1</SimpleData>
+		<SimpleData name="Cri_2003">738.1</SimpleData>
+		<SimpleData name="Cri_2004">633.7</SimpleData>
+		<SimpleData name="Cri_2005">610.1</SimpleData>
+		<SimpleData name="Cri_2006">604.2</SimpleData>
+		<SimpleData name="Cri_2007">592.2</SimpleData>
+		<SimpleData name="Cri_2008">615.5</SimpleData>
+		<SimpleData name="Cri_2009">568.7</SimpleData>
+		<SimpleData name="Cri_2010">540.4</SimpleData>
+		<SimpleData name="Cri_2011">547.9</SimpleData>
+		<SimpleData name="Cri_2012">536.3</SimpleData>
+		<SimpleData name="Cri_2013">473</SimpleData>
+		<SimpleData name="Cri_2014">425.4</SimpleData>
+		<SimpleData name="Cri_2015">426.4</SimpleData>
+		<SimpleData name="latitude">41.8842506</SimpleData>
+		<SimpleData name="longitude">-87.6324463</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-87.6324463,41.8842506</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#USBigCitiesCrimeGeo">
+		<SimpleData name="City">Indianapolis</SimpleData>
+		<SimpleData name="Population">848,788</SimpleData>
+		<SimpleData name="Cri_2001">516.1</SimpleData>
+		<SimpleData name="Cri_2002">556.2</SimpleData>
+		<SimpleData name="Cri_2003">571.8</SimpleData>
+		<SimpleData name="Cri_2004">585.7</SimpleData>
+		<SimpleData name="Cri_2005">641.9</SimpleData>
+		<SimpleData name="Cri_2006">641.4</SimpleData>
+		<SimpleData name="Cri_2007">702.6</SimpleData>
+		<SimpleData name="Cri_2008">679.5</SimpleData>
+		<SimpleData name="Cri_2009">655.7</SimpleData>
+		<SimpleData name="Cri_2010">No Data</SimpleData>
+		<SimpleData name="Cri_2011">617.9</SimpleData>
+		<SimpleData name="Cri_2012">628.6</SimpleData>
+		<SimpleData name="Cri_2013">645.6</SimpleData>
+		<SimpleData name="Cri_2014">623.3</SimpleData>
+		<SimpleData name="Cri_2015">632.7</SimpleData>
+		<SimpleData name="latitude">39.7669106</SimpleData>
+		<SimpleData name="longitude">-86.1499634</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-86.1499634,39.7669106</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#USBigCitiesCrimeGeo">
+		<SimpleData name="City">Des Moines</SimpleData>
+		<SimpleData name="Population">209,220</SimpleData>
+		<SimpleData name="Cri_2001">406.8</SimpleData>
+		<SimpleData name="Cri_2002">441.1</SimpleData>
+		<SimpleData name="Cri_2003">405.2</SimpleData>
+		<SimpleData name="Cri_2004">No Data</SimpleData>
+		<SimpleData name="Cri_2005">525.8</SimpleData>
+		<SimpleData name="Cri_2006">508.1</SimpleData>
+		<SimpleData name="Cri_2007">537.5</SimpleData>
+		<SimpleData name="Cri_2008">464.3</SimpleData>
+		<SimpleData name="Cri_2009">391.9</SimpleData>
+		<SimpleData name="Cri_2010">394.6</SimpleData>
+		<SimpleData name="Cri_2011">415.1</SimpleData>
+		<SimpleData name="Cri_2012">400.9</SimpleData>
+		<SimpleData name="Cri_2013">387.7</SimpleData>
+		<SimpleData name="Cri_2014">379.4</SimpleData>
+		<SimpleData name="Cri_2015">413.8</SimpleData>
+		<SimpleData name="latitude">41.5897598</SimpleData>
+		<SimpleData name="longitude">-93.6156464</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-93.6156464,41.5897598</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#USBigCitiesCrimeGeo">
+		<SimpleData name="City">Wichita</SimpleData>
+		<SimpleData name="Population">388,413</SimpleData>
+		<SimpleData name="Cri_2001">521.4</SimpleData>
+		<SimpleData name="Cri_2002">528.9</SimpleData>
+		<SimpleData name="Cri_2003">466.7</SimpleData>
+		<SimpleData name="Cri_2004">528.7</SimpleData>
+		<SimpleData name="Cri_2005">No Data</SimpleData>
+		<SimpleData name="Cri_2006">526.7</SimpleData>
+		<SimpleData name="Cri_2007">562.2</SimpleData>
+		<SimpleData name="Cri_2008">519.9</SimpleData>
+		<SimpleData name="Cri_2009">508.9</SimpleData>
+		<SimpleData name="Cri_2010">463.7</SimpleData>
+		<SimpleData name="Cri_2011">468.1</SimpleData>
+		<SimpleData name="Cri_2012">474.8</SimpleData>
+		<SimpleData name="Cri_2013">481.9</SimpleData>
+		<SimpleData name="Cri_2015">531.4</SimpleData>
+		<SimpleData name="latitude">37.6869812</SimpleData>
+		<SimpleData name="longitude">-97.3355789</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-97.3355789,37.6869812</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#USBigCitiesCrimeGeo">
+		<SimpleData name="City">New Orleans</SimpleData>
+		<SimpleData name="Population">384,320</SimpleData>
+		<SimpleData name="Cri_2001">664.5</SimpleData>
+		<SimpleData name="Cri_2002">573.3</SimpleData>
+		<SimpleData name="Cri_2003">579.9</SimpleData>
+		<SimpleData name="Cri_2004">648.9</SimpleData>
+		<SimpleData name="Cri_2005">No Data</SimpleData>
+		<SimpleData name="Cri_2006">370</SimpleData>
+		<SimpleData name="Cri_2007">No Data</SimpleData>
+		<SimpleData name="Cri_2008">676.8</SimpleData>
+		<SimpleData name="Cri_2009">512.7</SimpleData>
+		<SimpleData name="Cri_2010">485.1</SimpleData>
+		<SimpleData name="Cri_2011">545</SimpleData>
+		<SimpleData name="Cri_2012">514.2</SimpleData>
+		<SimpleData name="Cri_2013">492.3</SimpleData>
+		<SimpleData name="Cri_2014">563.4</SimpleData>
+		<SimpleData name="Cri_2015">568</SimpleData>
+		<SimpleData name="latitude">29.9536991</SimpleData>
+		<SimpleData name="longitude">-90.0777512</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-90.0777512,29.9536991</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#USBigCitiesCrimeGeo">
+		<SimpleData name="City">Portland Maine</SimpleData>
+		<SimpleData name="Population">66,666</SimpleData>
+		<SimpleData name="Cri_2001">280.5</SimpleData>
+		<SimpleData name="Cri_2002">319.9</SimpleData>
+		<SimpleData name="Cri_2003">332.5</SimpleData>
+		<SimpleData name="Cri_2004">353.9</SimpleData>
+		<SimpleData name="Cri_2005">365</SimpleData>
+		<SimpleData name="Cri_2006">404.8</SimpleData>
+		<SimpleData name="Cri_2007">349.4</SimpleData>
+		<SimpleData name="Cri_2008">358</SimpleData>
+		<SimpleData name="Cri_2009">344.8</SimpleData>
+		<SimpleData name="Cri_2010">363.7</SimpleData>
+		<SimpleData name="Cri_2011">295</SimpleData>
+		<SimpleData name="Cri_2012">279</SimpleData>
+		<SimpleData name="Cri_2013">267.2</SimpleData>
+		<SimpleData name="Cri_2014">221</SimpleData>
+		<SimpleData name="Cri_2015">251.3</SimpleData>
+		<SimpleData name="latitude">43.6591415</SimpleData>
+		<SimpleData name="longitude">-70.2566528</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-70.2566528,43.6591415</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#USBigCitiesCrimeGeo">
+		<SimpleData name="City">Baltimore</SimpleData>
+		<SimpleData name="Population">622,793</SimpleData>
+		<SimpleData name="Cri_2001">1041.7</SimpleData>
+		<SimpleData name="Cri_2002">908.2</SimpleData>
+		<SimpleData name="Cri_2003">833.3</SimpleData>
+		<SimpleData name="Cri_2004">834.8</SimpleData>
+		<SimpleData name="Cri_2005">783.1</SimpleData>
+		<SimpleData name="Cri_2006">774.4</SimpleData>
+		<SimpleData name="Cri_2007">748.6</SimpleData>
+		<SimpleData name="Cri_2008">724.9</SimpleData>
+		<SimpleData name="Cri_2009">690.7</SimpleData>
+		<SimpleData name="Cri_2010">670.7</SimpleData>
+		<SimpleData name="Cri_2011">685.9</SimpleData>
+		<SimpleData name="Cri_2012">680.8</SimpleData>
+		<SimpleData name="Cri_2013">698.3</SimpleData>
+		<SimpleData name="Cri_2014">662</SimpleData>
+		<SimpleData name="Cri_2015">776.3</SimpleData>
+		<SimpleData name="latitude">39.2905807</SimpleData>
+		<SimpleData name="longitude">-76.6092606</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-76.6092606,39.2905807</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#USBigCitiesCrimeGeo">
+		<SimpleData name="City">Boston</SimpleData>
+		<SimpleData name="Population">655,884</SimpleData>
+		<SimpleData name="Cri_2001">605.6</SimpleData>
+		<SimpleData name="Cri_2002">570.1</SimpleData>
+		<SimpleData name="Cri_2003">563.3</SimpleData>
+		<SimpleData name="Cri_2004">579.3</SimpleData>
+		<SimpleData name="Cri_2005">596.5</SimpleData>
+		<SimpleData name="Cri_2006">598.7</SimpleData>
+		<SimpleData name="Cri_2007">523.9</SimpleData>
+		<SimpleData name="Cri_2008">484.2</SimpleData>
+		<SimpleData name="Cri_2009">437</SimpleData>
+		<SimpleData name="Cri_2010">412.3</SimpleData>
+		<SimpleData name="Cri_2011">398.3</SimpleData>
+		<SimpleData name="Cri_2012">379.7</SimpleData>
+		<SimpleData name="Cri_2013">357.8</SimpleData>
+		<SimpleData name="Cri_2014">338.1</SimpleData>
+		<SimpleData name="Cri_2015">307.6</SimpleData>
+		<SimpleData name="latitude">42.3586617</SimpleData>
+		<SimpleData name="longitude">-71.0567398</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-71.0567398,42.3586617</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#USBigCitiesCrimeGeo">
+		<SimpleData name="City">Detroit</SimpleData>
+		<SimpleData name="Population">680,250</SimpleData>
+		<SimpleData name="Cri_2001">1091.7</SimpleData>
+		<SimpleData name="Cri_2002">1037.4</SimpleData>
+		<SimpleData name="Cri_2003">1047.9</SimpleData>
+		<SimpleData name="Cri_2004">929.4</SimpleData>
+		<SimpleData name="Cri_2005">1042.3</SimpleData>
+		<SimpleData name="Cri_2006">1138</SimpleData>
+		<SimpleData name="Cri_2007">1064.2</SimpleData>
+		<SimpleData name="Cri_2008">901.1</SimpleData>
+		<SimpleData name="Cri_2009">895.6</SimpleData>
+		<SimpleData name="Cri_2010">853.7</SimpleData>
+		<SimpleData name="Cri_2011">996.6</SimpleData>
+		<SimpleData name="Cri_2012">982.7</SimpleData>
+		<SimpleData name="Cri_2013">968.7</SimpleData>
+		<SimpleData name="Cri_2014">868.8</SimpleData>
+		<SimpleData name="Cri_2015">759</SimpleData>
+		<SimpleData name="latitude">42.3316803</SimpleData>
+		<SimpleData name="longitude">-83.0479965</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-83.0479965,42.3316803</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#USBigCitiesCrimeGeo">
+		<SimpleData name="City">Minneapolis</SimpleData>
+		<SimpleData name="Population">407,207</SimpleData>
+		<SimpleData name="Cri_2001">613.4</SimpleData>
+		<SimpleData name="Cri_2002">595.7</SimpleData>
+		<SimpleData name="Cri_2003">626.8</SimpleData>
+		<SimpleData name="Cri_2004">674.4</SimpleData>
+		<SimpleData name="Cri_2005">769.9</SimpleData>
+		<SimpleData name="Cri_2006">834.9</SimpleData>
+		<SimpleData name="Cri_2007">791.3</SimpleData>
+		<SimpleData name="Cri_2008">673.7</SimpleData>
+		<SimpleData name="Cri_2009">581.1</SimpleData>
+		<SimpleData name="Cri_2010">584.3</SimpleData>
+		<SimpleData name="Cri_2011">566.5</SimpleData>
+		<SimpleData name="Cri_2012">576.3</SimpleData>
+		<SimpleData name="Cri_2013">571.5</SimpleData>
+		<SimpleData name="Cri_2014">554.9</SimpleData>
+		<SimpleData name="Cri_2015">548.1</SimpleData>
+		<SimpleData name="latitude">44.9790306</SimpleData>
+		<SimpleData name="longitude">-93.2649307</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-93.2649307,44.9790306</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#USBigCitiesCrimeGeo">
+		<SimpleData name="City">Jackson</SimpleData>
+		<SimpleData name="Population">171,155</SimpleData>
+		<SimpleData name="Cri_2001">860</SimpleData>
+		<SimpleData name="Cri_2002">803.8</SimpleData>
+		<SimpleData name="Cri_2003">789.1</SimpleData>
+		<SimpleData name="Cri_2004">657.8</SimpleData>
+		<SimpleData name="Cri_2005">620.9</SimpleData>
+		<SimpleData name="Cri_2006">752.5</SimpleData>
+		<SimpleData name="Cri_2007">703.5</SimpleData>
+		<SimpleData name="Cri_2008">766.6</SimpleData>
+		<SimpleData name="Cri_2009">734.3</SimpleData>
+		<SimpleData name="Cri_2010">759.9</SimpleData>
+		<SimpleData name="Cri_2011">738.6</SimpleData>
+		<SimpleData name="Cri_2012">704.7</SimpleData>
+		<SimpleData name="Cri_2013">636.9</SimpleData>
+		<SimpleData name="Cri_2014">654.2</SimpleData>
+		<SimpleData name="Cri_2015">602.9</SimpleData>
+		<SimpleData name="latitude">32.2986908</SimpleData>
+		<SimpleData name="longitude">-90.1804886</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-90.1804886,32.2986908</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#USBigCitiesCrimeGeo">
+		<SimpleData name="City">Kansas City MO</SimpleData>
+		<SimpleData name="Population">470,800</SimpleData>
+		<SimpleData name="Cri_2001">956.9</SimpleData>
+		<SimpleData name="Cri_2002">840.5</SimpleData>
+		<SimpleData name="Cri_2003">798.3</SimpleData>
+		<SimpleData name="Cri_2004">818.4</SimpleData>
+		<SimpleData name="Cri_2005">839.1</SimpleData>
+		<SimpleData name="Cri_2006">798.6</SimpleData>
+		<SimpleData name="Cri_2007">No Data</SimpleData>
+		<SimpleData name="Cri_2008">741.5</SimpleData>
+		<SimpleData name="Cri_2009">666.2</SimpleData>
+		<SimpleData name="Cri_2010">621.9</SimpleData>
+		<SimpleData name="Cri_2011">648</SimpleData>
+		<SimpleData name="Cri_2012">657.6</SimpleData>
+		<SimpleData name="Cri_2013">664.5</SimpleData>
+		<SimpleData name="Cri_2014">628.3</SimpleData>
+		<SimpleData name="Cri_2015">648.8</SimpleData>
+		<SimpleData name="latitude">39.102951</SimpleData>
+		<SimpleData name="longitude">-94.5830765</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-94.5830765,39.102951</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#USBigCitiesCrimeGeo">
+		<SimpleData name="City">Billings</SimpleData>
+		<SimpleData name="Population">108,869</SimpleData>
+		<SimpleData name="Cri_2001">313.3</SimpleData>
+		<SimpleData name="Cri_2002">289.4</SimpleData>
+		<SimpleData name="Cri_2003">317.4</SimpleData>
+		<SimpleData name="Cri_2004">292</SimpleData>
+		<SimpleData name="Cri_2005">334.7</SimpleData>
+		<SimpleData name="Cri_2006">266.4</SimpleData>
+		<SimpleData name="Cri_2007">259.9</SimpleData>
+		<SimpleData name="Cri_2008">278.5</SimpleData>
+		<SimpleData name="Cri_2009">280.6</SimpleData>
+		<SimpleData name="Cri_2010">295.8</SimpleData>
+		<SimpleData name="Cri_2011">297.4</SimpleData>
+		<SimpleData name="Cri_2012">321.2</SimpleData>
+		<SimpleData name="Cri_2013">358.2</SimpleData>
+		<SimpleData name="Cri_2014">352.5</SimpleData>
+		<SimpleData name="Cri_2015">376.2</SimpleData>
+		<SimpleData name="latitude">45.7838211</SimpleData>
+		<SimpleData name="longitude">-108.5056763</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-108.5056763,45.7838211</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#USBigCitiesCrimeGeo">
+		<SimpleData name="City">Omaha</SimpleData>
+		<SimpleData name="Population">446,599</SimpleData>
+		<SimpleData name="Cri_2001">544.6</SimpleData>
+		<SimpleData name="Cri_2002">543.5</SimpleData>
+		<SimpleData name="Cri_2003">512.3</SimpleData>
+		<SimpleData name="Cri_2004">467.6</SimpleData>
+		<SimpleData name="Cri_2005">446.1</SimpleData>
+		<SimpleData name="Cri_2006">446.7</SimpleData>
+		<SimpleData name="Cri_2007">428.5</SimpleData>
+		<SimpleData name="Cri_2008">404.3</SimpleData>
+		<SimpleData name="Cri_2009">371.2</SimpleData>
+		<SimpleData name="Cri_2010">339</SimpleData>
+		<SimpleData name="Cri_2011">411.3</SimpleData>
+		<SimpleData name="Cri_2012">416.5</SimpleData>
+		<SimpleData name="Cri_2013">409.4</SimpleData>
+		<SimpleData name="Cri_2014">389.4</SimpleData>
+		<SimpleData name="Cri_2015">340.3</SimpleData>
+		<SimpleData name="latitude">41.2606888</SimpleData>
+		<SimpleData name="longitude">-95.9405899</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-95.9405899,41.2606888</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#USBigCitiesCrimeGeo">
+		<SimpleData name="City">Henderson</SimpleData>
+		<SimpleData name="Population">613,599</SimpleData>
+		<SimpleData name="Cri_2001">255.5</SimpleData>
+		<SimpleData name="Cri_2002">245.7</SimpleData>
+		<SimpleData name="Cri_2003">228.8</SimpleData>
+		<SimpleData name="Cri_2004">230.6</SimpleData>
+		<SimpleData name="Cri_2005">219.7</SimpleData>
+		<SimpleData name="Cri_2006">234</SimpleData>
+		<SimpleData name="Cri_2007">220.3</SimpleData>
+		<SimpleData name="Cri_2008">196</SimpleData>
+		<SimpleData name="Cri_2009">176.7</SimpleData>
+		<SimpleData name="Cri_2010">No Data</SimpleData>
+		<SimpleData name="Cri_2011">161.2</SimpleData>
+		<SimpleData name="Cri_2012">No Data</SimpleData>
+		<SimpleData name="Cri_2013">No Data</SimpleData>
+		<SimpleData name="Cri_2014">No Data</SimpleData>
+		<SimpleData name="Cri_2015">No Data</SimpleData>
+		<SimpleData name="latitude">36.0308189</SimpleData>
+		<SimpleData name="longitude">-114.9810867</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-114.9810867,36.0308189</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#USBigCitiesCrimeGeo">
+		<SimpleData name="City">Manchester NH</SimpleData>
+		<SimpleData name="Population">110,448</SimpleData>
+		<SimpleData name="Cri_2001">236.6</SimpleData>
+		<SimpleData name="Cri_2002">225.4</SimpleData>
+		<SimpleData name="Cri_2003">266.2</SimpleData>
+		<SimpleData name="Cri_2004">294</SimpleData>
+		<SimpleData name="Cri_2005">270.7</SimpleData>
+		<SimpleData name="Cri_2006">257.5</SimpleData>
+		<SimpleData name="Cri_2007">No Data</SimpleData>
+		<SimpleData name="Cri_2008">307.9</SimpleData>
+		<SimpleData name="Cri_2009">320.8</SimpleData>
+		<SimpleData name="Cri_2010">321</SimpleData>
+		<SimpleData name="Cri_2011">353.4</SimpleData>
+		<SimpleData name="Cri_2012">341.4</SimpleData>
+		<SimpleData name="Cri_2013">400</SimpleData>
+		<SimpleData name="Cri_2014">353.6</SimpleData>
+		<SimpleData name="Cri_2015">381.6</SimpleData>
+		<SimpleData name="latitude">42.991169</SimpleData>
+		<SimpleData name="longitude">-71.463089</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-71.463089,42.991169</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#USBigCitiesCrimeGeo">
+		<SimpleData name="City">Newark</SimpleData>
+		<SimpleData name="Population">280,579</SimpleData>
+		<SimpleData name="Cri_2001">759</SimpleData>
+		<SimpleData name="Cri_2002">673.6</SimpleData>
+		<SimpleData name="Cri_2003">627</SimpleData>
+		<SimpleData name="Cri_2004">617.2</SimpleData>
+		<SimpleData name="Cri_2005">609</SimpleData>
+		<SimpleData name="Cri_2006">590.8</SimpleData>
+		<SimpleData name="Cri_2007">524.6</SimpleData>
+		<SimpleData name="Cri_2008">508.3</SimpleData>
+		<SimpleData name="Cri_2009">491.1</SimpleData>
+		<SimpleData name="Cri_2010">541.3</SimpleData>
+		<SimpleData name="Cri_2011">600.9</SimpleData>
+		<SimpleData name="Cri_2012">601.7</SimpleData>
+		<SimpleData name="Cri_2013">615.2</SimpleData>
+		<SimpleData name="Cri_2014">522.2</SimpleData>
+		<SimpleData name="Cri_2015">No Data</SimpleData>
+		<SimpleData name="latitude">40.7319717</SimpleData>
+		<SimpleData name="longitude">-74.1742096</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-74.1742096,40.7319717</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#USBigCitiesCrimeGeo">
+		<SimpleData name="City">Albuquerque</SimpleData>
+		<SimpleData name="Population">557,169</SimpleData>
+		<SimpleData name="Cri_2001">No Data</SimpleData>
+		<SimpleData name="Cri_2002">653.1</SimpleData>
+		<SimpleData name="Cri_2003">596.5</SimpleData>
+		<SimpleData name="Cri_2004">589.8</SimpleData>
+		<SimpleData name="Cri_2005">591.1</SimpleData>
+		<SimpleData name="Cri_2006">597.6</SimpleData>
+		<SimpleData name="Cri_2007">589.3</SimpleData>
+		<SimpleData name="Cri_2008">583.2</SimpleData>
+		<SimpleData name="Cri_2009">521</SimpleData>
+		<SimpleData name="Cri_2010">477.8</SimpleData>
+		<SimpleData name="Cri_2011">474.7</SimpleData>
+		<SimpleData name="Cri_2012">492.5</SimpleData>
+		<SimpleData name="Cri_2013">521.5</SimpleData>
+		<SimpleData name="Cri_2014">539.8</SimpleData>
+		<SimpleData name="Cri_2015">No Data</SimpleData>
+		<SimpleData name="latitude">35.0841789</SimpleData>
+		<SimpleData name="longitude">-106.6486435</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-106.6486435,35.0841789</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#USBigCitiesCrimeGeo">
+		<SimpleData name="City">New York</SimpleData>
+		<SimpleData name="Population">8,491,079</SimpleData>
+		<SimpleData name="Cri_2001">437.7</SimpleData>
+		<SimpleData name="Cri_2002">343.4</SimpleData>
+		<SimpleData name="Cri_2003">322.2</SimpleData>
+		<SimpleData name="Cri_2004">295.4</SimpleData>
+		<SimpleData name="Cri_2005">285.2</SimpleData>
+		<SimpleData name="Cri_2006">268.5</SimpleData>
+		<SimpleData name="Cri_2007">253.3</SimpleData>
+		<SimpleData name="Cri_2008">245.3</SimpleData>
+		<SimpleData name="Cri_2009">227.9</SimpleData>
+		<SimpleData name="Cri_2010">237.3</SimpleData>
+		<SimpleData name="Cri_2011">247.7</SimpleData>
+		<SimpleData name="Cri_2012">249.3</SimpleData>
+		<SimpleData name="Cri_2013">239.9</SimpleData>
+		<SimpleData name="Cri_2014">234.8</SimpleData>
+		<SimpleData name="Cri_2015">229.3</SimpleData>
+		<SimpleData name="latitude">40.7820015</SimpleData>
+		<SimpleData name="longitude">-73.8317032</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-73.8317032,40.7820015</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#USBigCitiesCrimeGeo">
+		<SimpleData name="City">Raleigh</SimpleData>
+		<SimpleData name="Population">439,896</SimpleData>
+		<SimpleData name="Cri_2001">512.8</SimpleData>
+		<SimpleData name="Cri_2002">485</SimpleData>
+		<SimpleData name="Cri_2003">422.1</SimpleData>
+		<SimpleData name="Cri_2004">351.4</SimpleData>
+		<SimpleData name="Cri_2005">363.7</SimpleData>
+		<SimpleData name="Cri_2006">359.1</SimpleData>
+		<SimpleData name="Cri_2007">339</SimpleData>
+		<SimpleData name="Cri_2008">342</SimpleData>
+		<SimpleData name="Cri_2009">307.4</SimpleData>
+		<SimpleData name="Cri_2010">No Data</SimpleData>
+		<SimpleData name="Cri_2011">287.4</SimpleData>
+		<SimpleData name="Cri_2012">No Data</SimpleData>
+		<SimpleData name="Cri_2013">No Data</SimpleData>
+		<SimpleData name="Cri_2014">No Data</SimpleData>
+		<SimpleData name="Cri_2015">No Data</SimpleData>
+		<SimpleData name="latitude">35.785511</SimpleData>
+		<SimpleData name="longitude">-78.6426697</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-78.6426697,35.785511</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#USBigCitiesCrimeGeo">
+		<SimpleData name="City">Fargo</SimpleData>
+		<SimpleData name="Population">115,863</SimpleData>
+		<SimpleData name="Cri_2001">228.3</SimpleData>
+		<SimpleData name="Cri_2002">222.8</SimpleData>
+		<SimpleData name="Cri_2003">163.1</SimpleData>
+		<SimpleData name="Cri_2004">136.5</SimpleData>
+		<SimpleData name="Cri_2005">182</SimpleData>
+		<SimpleData name="Cri_2006">247.7</SimpleData>
+		<SimpleData name="Cri_2007">252.2</SimpleData>
+		<SimpleData name="Cri_2008">243.8</SimpleData>
+		<SimpleData name="Cri_2009">273.4</SimpleData>
+		<SimpleData name="Cri_2010">220</SimpleData>
+		<SimpleData name="Cri_2011">217.2</SimpleData>
+		<SimpleData name="Cri_2012">238.2</SimpleData>
+		<SimpleData name="Cri_2013">269.2</SimpleData>
+		<SimpleData name="Cri_2014">251.2</SimpleData>
+		<SimpleData name="Cri_2015">263.4</SimpleData>
+		<SimpleData name="latitude">46.8759117</SimpleData>
+		<SimpleData name="longitude">-96.7817612</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-96.7817612,46.8759117</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#USBigCitiesCrimeGeo">
+		<SimpleData name="City">Columbus</SimpleData>
+		<SimpleData name="Population">835,957</SimpleData>
+		<SimpleData name="Cri_2001">758</SimpleData>
+		<SimpleData name="Cri_2002">753.9</SimpleData>
+		<SimpleData name="Cri_2003">714.2</SimpleData>
+		<SimpleData name="Cri_2004">695.6</SimpleData>
+		<SimpleData name="Cri_2005">686.1</SimpleData>
+		<SimpleData name="Cri_2006">666.7</SimpleData>
+		<SimpleData name="Cri_2007">668.1</SimpleData>
+		<SimpleData name="Cri_2008">621.6</SimpleData>
+		<SimpleData name="Cri_2009">587.1</SimpleData>
+		<SimpleData name="Cri_2010">590.5</SimpleData>
+		<SimpleData name="Cri_2011">561</SimpleData>
+		<SimpleData name="Cri_2012">No Data</SimpleData>
+		<SimpleData name="Cri_2013">No Data</SimpleData>
+		<SimpleData name="Cri_2014">423.4</SimpleData>
+		<SimpleData name="Cri_2015">406.7</SimpleData>
+		<SimpleData name="latitude">39.9619904</SimpleData>
+		<SimpleData name="longitude">-83.0027466</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-83.0027466,39.9619904</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#USBigCitiesCrimeGeo">
+		<SimpleData name="City">Oklahoma City</SimpleData>
+		<SimpleData name="Population">620,602</SimpleData>
+		<SimpleData name="Cri_2001">666</SimpleData>
+		<SimpleData name="Cri_2002">697.5</SimpleData>
+		<SimpleData name="Cri_2003">716.7</SimpleData>
+		<SimpleData name="Cri_2004">667.1</SimpleData>
+		<SimpleData name="Cri_2005">653.7</SimpleData>
+		<SimpleData name="Cri_2006">581.5</SimpleData>
+		<SimpleData name="Cri_2007">565.8</SimpleData>
+		<SimpleData name="Cri_2008">590.3</SimpleData>
+		<SimpleData name="Cri_2009">589.6</SimpleData>
+		<SimpleData name="Cri_2010">567.4</SimpleData>
+		<SimpleData name="Cri_2011">552.4</SimpleData>
+		<SimpleData name="Cri_2012">585.7</SimpleData>
+		<SimpleData name="Cri_2013">529.4</SimpleData>
+		<SimpleData name="Cri_2014">459.6</SimpleData>
+		<SimpleData name="Cri_2015">442.8</SimpleData>
+		<SimpleData name="latitude">35.4720306</SimpleData>
+		<SimpleData name="longitude">-97.5210724</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-97.5210724,35.4720306</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#USBigCitiesCrimeGeo">
+		<SimpleData name="City">Portland</SimpleData>
+		<SimpleData name="Population">619,360</SimpleData>
+		<SimpleData name="Cri_2001">582.1</SimpleData>
+		<SimpleData name="Cri_2002">583.6</SimpleData>
+		<SimpleData name="Cri_2003">611</SimpleData>
+		<SimpleData name="Cri_2004">604.9</SimpleData>
+		<SimpleData name="Cri_2005">561.6</SimpleData>
+		<SimpleData name="Cri_2006">505.3</SimpleData>
+		<SimpleData name="Cri_2007">497.3</SimpleData>
+		<SimpleData name="Cri_2008">439.7</SimpleData>
+		<SimpleData name="Cri_2009">393.6</SimpleData>
+		<SimpleData name="Cri_2010">403.5</SimpleData>
+		<SimpleData name="Cri_2011">398.1</SimpleData>
+		<SimpleData name="Cri_2012">398.6</SimpleData>
+		<SimpleData name="Cri_2013">375.3</SimpleData>
+		<SimpleData name="Cri_2014">393</SimpleData>
+		<SimpleData name="Cri_2015">No Data</SimpleData>
+		<SimpleData name="latitude">45.5117912</SimpleData>
+		<SimpleData name="longitude">-122.6756287</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-122.6756287,45.5117912</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#USBigCitiesCrimeGeo">
+		<SimpleData name="City">Philadelphia</SimpleData>
+		<SimpleData name="Population">1,560,297</SimpleData>
+		<SimpleData name="Cri_2001">697.9</SimpleData>
+		<SimpleData name="Cri_2002">638.7</SimpleData>
+		<SimpleData name="Cri_2003">668</SimpleData>
+		<SimpleData name="Cri_2004">647.3</SimpleData>
+		<SimpleData name="Cri_2005">667</SimpleData>
+		<SimpleData name="Cri_2006">703.1</SimpleData>
+		<SimpleData name="Cri_2007">682.9</SimpleData>
+		<SimpleData name="Cri_2008">665.2</SimpleData>
+		<SimpleData name="Cri_2009">559.7</SimpleData>
+		<SimpleData name="Cri_2010">550.5</SimpleData>
+		<SimpleData name="Cri_2011">562.1</SimpleData>
+		<SimpleData name="Cri_2012">545.1</SimpleData>
+		<SimpleData name="Cri_2013">519.3</SimpleData>
+		<SimpleData name="Cri_2014">492.9</SimpleData>
+		<SimpleData name="Cri_2015">485.9</SimpleData>
+		<SimpleData name="latitude">39.9522781</SimpleData>
+		<SimpleData name="longitude">-75.1624527</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-75.1624527,39.9522781</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#USBigCitiesCrimeGeo">
+		<SimpleData name="City">Providence</SimpleData>
+		<SimpleData name="Population">179,154</SimpleData>
+		<SimpleData name="Cri_2001">656.4</SimpleData>
+		<SimpleData name="Cri_2002">620.4</SimpleData>
+		<SimpleData name="Cri_2003">586</SimpleData>
+		<SimpleData name="Cri_2004">510</SimpleData>
+		<SimpleData name="Cri_2005">504</SimpleData>
+		<SimpleData name="Cri_2006">426.6</SimpleData>
+		<SimpleData name="Cri_2007">414</SimpleData>
+		<SimpleData name="Cri_2008">472.9</SimpleData>
+		<SimpleData name="Cri_2009">445.5</SimpleData>
+		<SimpleData name="Cri_2010">460.2</SimpleData>
+		<SimpleData name="Cri_2011">No Data</SimpleData>
+		<SimpleData name="Cri_2012">431.4</SimpleData>
+		<SimpleData name="Cri_2013">420.1</SimpleData>
+		<SimpleData name="Cri_2014">367</SimpleData>
+		<SimpleData name="Cri_2015">349.7</SimpleData>
+		<SimpleData name="latitude">41.8238716</SimpleData>
+		<SimpleData name="longitude">-71.4119873</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-71.4119873,41.8238716</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#USBigCitiesCrimeGeo">
+		<SimpleData name="City">Columbia</SimpleData>
+		<SimpleData name="Population">132,067</SimpleData>
+		<SimpleData name="Cri_2001">656.9</SimpleData>
+		<SimpleData name="Cri_2002">681.7</SimpleData>
+		<SimpleData name="Cri_2003">616.6</SimpleData>
+		<SimpleData name="Cri_2004">741.9</SimpleData>
+		<SimpleData name="Cri_2005">629</SimpleData>
+		<SimpleData name="Cri_2006">576.3</SimpleData>
+		<SimpleData name="Cri_2007">625.2</SimpleData>
+		<SimpleData name="Cri_2008">510.4</SimpleData>
+		<SimpleData name="Cri_2009">590.5</SimpleData>
+		<SimpleData name="Cri_2010">584.4</SimpleData>
+		<SimpleData name="Cri_2011">No Data</SimpleData>
+		<SimpleData name="Cri_2012">No Data</SimpleData>
+		<SimpleData name="Cri_2013">503.5</SimpleData>
+		<SimpleData name="Cri_2014">475.2</SimpleData>
+		<SimpleData name="Cri_2015">501.2</SimpleData>
+		<SimpleData name="latitude">33.9988213</SimpleData>
+		<SimpleData name="longitude">-81.045372</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-81.045372,33.9988213</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#USBigCitiesCrimeGeo">
+		<SimpleData name="City">Sioux Falls</SimpleData>
+		<SimpleData name="Population">168,586</SimpleData>
+		<SimpleData name="Cri_2001">244.7</SimpleData>
+		<SimpleData name="Cri_2002">273.1</SimpleData>
+		<SimpleData name="Cri_2003">268.4</SimpleData>
+		<SimpleData name="Cri_2004">275.4</SimpleData>
+		<SimpleData name="Cri_2005">290.8</SimpleData>
+		<SimpleData name="Cri_2006">245.8</SimpleData>
+		<SimpleData name="Cri_2007">222.1</SimpleData>
+		<SimpleData name="Cri_2008">247</SimpleData>
+		<SimpleData name="Cri_2009">248.9</SimpleData>
+		<SimpleData name="Cri_2010">247.6</SimpleData>
+		<SimpleData name="Cri_2011">253.5</SimpleData>
+		<SimpleData name="Cri_2012">291</SimpleData>
+		<SimpleData name="Cri_2013">281.9</SimpleData>
+		<SimpleData name="Cri_2014">292.2</SimpleData>
+		<SimpleData name="Cri_2015">309.5</SimpleData>
+		<SimpleData name="latitude">43.5453491</SimpleData>
+		<SimpleData name="longitude">-96.7312775</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-96.7312775,43.5453491</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#USBigCitiesCrimeGeo">
+		<SimpleData name="City">Memphis</SimpleData>
+		<SimpleData name="Population">656,861</SimpleData>
+		<SimpleData name="Cri_2001">959.9</SimpleData>
+		<SimpleData name="Cri_2002">942.6</SimpleData>
+		<SimpleData name="Cri_2003">935.7</SimpleData>
+		<SimpleData name="Cri_2004">882.4</SimpleData>
+		<SimpleData name="Cri_2005">962.8</SimpleData>
+		<SimpleData name="Cri_2006">998.5</SimpleData>
+		<SimpleData name="Cri_2007">962.9</SimpleData>
+		<SimpleData name="Cri_2008">949.4</SimpleData>
+		<SimpleData name="Cri_2009">863.8</SimpleData>
+		<SimpleData name="Cri_2010">749.5</SimpleData>
+		<SimpleData name="Cri_2011">774.3</SimpleData>
+		<SimpleData name="Cri_2012">804.2</SimpleData>
+		<SimpleData name="Cri_2013">765.1</SimpleData>
+		<SimpleData name="Cri_2014">792.8</SimpleData>
+		<SimpleData name="Cri_2015">769.5</SimpleData>
+		<SimpleData name="latitude">35.1497612</SimpleData>
+		<SimpleData name="longitude">-90.0492477</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-90.0492477,35.1497612</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#USBigCitiesCrimeGeo">
+		<SimpleData name="City">Houston</SimpleData>
+		<SimpleData name="Population">2,239,558</SimpleData>
+		<SimpleData name="Cri_2001">667</SimpleData>
+		<SimpleData name="Cri_2002">685.9</SimpleData>
+		<SimpleData name="Cri_2003">659.3</SimpleData>
+		<SimpleData name="Cri_2004">653.3</SimpleData>
+		<SimpleData name="Cri_2005">659.6</SimpleData>
+		<SimpleData name="Cri_2006">659.2</SimpleData>
+		<SimpleData name="Cri_2007">631.1</SimpleData>
+		<SimpleData name="Cri_2008">573.6</SimpleData>
+		<SimpleData name="Cri_2009">596.6</SimpleData>
+		<SimpleData name="Cri_2010">540.1</SimpleData>
+		<SimpleData name="Cri_2011">534.2</SimpleData>
+		<SimpleData name="Cri_2012">536.4</SimpleData>
+		<SimpleData name="Cri_2013">533.6</SimpleData>
+		<SimpleData name="Cri_2014">528.7</SimpleData>
+		<SimpleData name="Cri_2015">514.4</SimpleData>
+		<SimpleData name="latitude">29.7604504</SimpleData>
+		<SimpleData name="longitude">-95.3697815</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-95.3697815,29.7604504</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#USBigCitiesCrimeGeo">
+		<SimpleData name="City">Salt Lake City</SimpleData>
+		<SimpleData name="Population">190,884</SimpleData>
+		<SimpleData name="Cri_2001">532.2</SimpleData>
+		<SimpleData name="Cri_2002">575.6</SimpleData>
+		<SimpleData name="Cri_2003">569.5</SimpleData>
+		<SimpleData name="Cri_2004">653.2</SimpleData>
+		<SimpleData name="Cri_2005">618.6</SimpleData>
+		<SimpleData name="Cri_2006">645.2</SimpleData>
+		<SimpleData name="Cri_2007">672.1</SimpleData>
+		<SimpleData name="Cri_2008">654.2</SimpleData>
+		<SimpleData name="Cri_2009">589.1</SimpleData>
+		<SimpleData name="Cri_2010">603.9</SimpleData>
+		<SimpleData name="Cri_2011">515.6</SimpleData>
+		<SimpleData name="Cri_2012">559.3</SimpleData>
+		<SimpleData name="Cri_2013">603.3</SimpleData>
+		<SimpleData name="Cri_2014">650.2</SimpleData>
+		<SimpleData name="Cri_2015">744.8</SimpleData>
+		<SimpleData name="latitude">40.7603111</SimpleData>
+		<SimpleData name="longitude">-111.8882217</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-111.8882217,40.7603111</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#USBigCitiesCrimeGeo">
+		<SimpleData name="City">Burlington</SimpleData>
+		<SimpleData name="Population">42,211</SimpleData>
+		<SimpleData name="Cri_2001">366.1</SimpleData>
+		<SimpleData name="Cri_2002">261.6</SimpleData>
+		<SimpleData name="Cri_2003">260.2</SimpleData>
+		<SimpleData name="Cri_2004">No Data</SimpleData>
+		<SimpleData name="Cri_2005">No Data</SimpleData>
+		<SimpleData name="Cri_2006">311.8</SimpleData>
+		<SimpleData name="Cri_2007">318.5</SimpleData>
+		<SimpleData name="Cri_2008">311.6</SimpleData>
+		<SimpleData name="Cri_2009">285.9</SimpleData>
+		<SimpleData name="Cri_2010">No Data</SimpleData>
+		<SimpleData name="Cri_2011">No Data</SimpleData>
+		<SimpleData name="Cri_2012">No Data</SimpleData>
+		<SimpleData name="Cri_2013">No Data</SimpleData>
+		<SimpleData name="Cri_2014">No Data</SimpleData>
+		<SimpleData name="Cri_2015">230.6</SimpleData>
+		<SimpleData name="latitude">44.4759216</SimpleData>
+		<SimpleData name="longitude">-73.2132263</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-73.2132263,44.4759216</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#USBigCitiesCrimeGeo">
+		<SimpleData name="City">Virginia Beach</SimpleData>
+		<SimpleData name="Population">450,980</SimpleData>
+		<SimpleData name="Cri_2001">244.6</SimpleData>
+		<SimpleData name="Cri_2002">245</SimpleData>
+		<SimpleData name="Cri_2003">242.7</SimpleData>
+		<SimpleData name="Cri_2004">221.4</SimpleData>
+		<SimpleData name="Cri_2005">227.1</SimpleData>
+		<SimpleData name="Cri_2006">230.7</SimpleData>
+		<SimpleData name="Cri_2007">221.2</SimpleData>
+		<SimpleData name="Cri_2008">211.7</SimpleData>
+		<SimpleData name="Cri_2009">210.9</SimpleData>
+		<SimpleData name="Cri_2010">202.9</SimpleData>
+		<SimpleData name="Cri_2011">185.9</SimpleData>
+		<SimpleData name="Cri_2012">176.9</SimpleData>
+		<SimpleData name="Cri_2013">177.5</SimpleData>
+		<SimpleData name="Cri_2014">153.1</SimpleData>
+		<SimpleData name="Cri_2015">153.2</SimpleData>
+		<SimpleData name="latitude">36.7550201</SimpleData>
+		<SimpleData name="longitude">-76.0591965</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-76.0591965,36.7550201</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#USBigCitiesCrimeGeo">
+		<SimpleData name="City">Seattle</SimpleData>
+		<SimpleData name="Population">668,342</SimpleData>
+		<SimpleData name="Cri_2001">568.1</SimpleData>
+		<SimpleData name="Cri_2002">560.1</SimpleData>
+		<SimpleData name="Cri_2003">600.3</SimpleData>
+		<SimpleData name="Cri_2004">584</SimpleData>
+		<SimpleData name="Cri_2005">593</SimpleData>
+		<SimpleData name="Cri_2006">558.6</SimpleData>
+		<SimpleData name="Cri_2007">470.3</SimpleData>
+		<SimpleData name="Cri_2008">440.3</SimpleData>
+		<SimpleData name="Cri_2009">462.8</SimpleData>
+		<SimpleData name="Cri_2010">418.7</SimpleData>
+		<SimpleData name="Cri_2011">417.7</SimpleData>
+		<SimpleData name="Cri_2012">417.8</SimpleData>
+		<SimpleData name="Cri_2013">446</SimpleData>
+		<SimpleData name="Cri_2014">475.7</SimpleData>
+		<SimpleData name="Cri_2015">438.1</SimpleData>
+		<SimpleData name="latitude">47.603569</SimpleData>
+		<SimpleData name="longitude">-122.3294525</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-122.3294525,47.603569</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#USBigCitiesCrimeGeo">
+		<SimpleData name="City">Charleston West Virginia</SimpleData>
+		<SimpleData name="Population">50,404</SimpleData>
+		<SimpleData name="Cri_2001">No Data</SimpleData>
+		<SimpleData name="Cri_2002">593</SimpleData>
+		<SimpleData name="Cri_2003">No Data</SimpleData>
+		<SimpleData name="Cri_2004">812.2</SimpleData>
+		<SimpleData name="Cri_2005">650</SimpleData>
+		<SimpleData name="Cri_2006">587.9</SimpleData>
+		<SimpleData name="Cri_2007">577.6</SimpleData>
+		<SimpleData name="Cri_2008">589.4</SimpleData>
+		<SimpleData name="Cri_2009">541.7</SimpleData>
+		<SimpleData name="Cri_2010">No Data</SimpleData>
+		<SimpleData name="Cri_2011">547.6</SimpleData>
+		<SimpleData name="Cri_2012">No Data</SimpleData>
+		<SimpleData name="Cri_2013">No Data</SimpleData>
+		<SimpleData name="Cri_2014">671.9</SimpleData>
+		<SimpleData name="Cri_2015">695.8</SimpleData>
+		<SimpleData name="latitude">38.3501396</SimpleData>
+		<SimpleData name="longitude">-81.6389313</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-81.6389313,38.3501396</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#USBigCitiesCrimeGeo">
+		<SimpleData name="City">Cheyenne</SimpleData>
+		<SimpleData name="Population">62,845</SimpleData>
+		<SimpleData name="Cri_2001">246.6</SimpleData>
+		<SimpleData name="Cri_2002">272.9</SimpleData>
+		<SimpleData name="Cri_2003">285.1</SimpleData>
+		<SimpleData name="Cri_2004">269</SimpleData>
+		<SimpleData name="Cri_2005">270.7</SimpleData>
+		<SimpleData name="Cri_2006">273.5</SimpleData>
+		<SimpleData name="Cri_2007">276.1</SimpleData>
+		<SimpleData name="Cri_2008">286.8</SimpleData>
+		<SimpleData name="Cri_2009">275</SimpleData>
+		<SimpleData name="Cri_2010">245.5</SimpleData>
+		<SimpleData name="Cri_2011">238.7</SimpleData>
+		<SimpleData name="Cri_2012">225.4</SimpleData>
+		<SimpleData name="Cri_2013">211.3</SimpleData>
+		<SimpleData name="Cri_2014">172.3</SimpleData>
+		<SimpleData name="Cri_2015">219.6</SimpleData>
+		<SimpleData name="latitude">41.1348114</SimpleData>
+		<SimpleData name="longitude">-104.8215408</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-104.8215408,41.1348114</coordinates></Point>
+  </Placemark>
+</Folder>
+</Document></kml>
