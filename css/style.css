@@ -1,19 +1,20 @@
 /* Stylesheet by Beichen Tian, 2017.01 */
 
-#menu{
-	position:relative;
-	height:70px;
-	top:-8px;
+body{
 	margin:0;
+	height:100%;
+}
+
+#menu{
+	height:70px;
 	background-color:#000;
 	//display:inline-block;
 }
 
 h1{
 	position:absolute;
-	top:3px;
-	left:340px;
-	text-align=center;
+	top:0;
+	left:130px;
 	font-style:italic;
 	font-weight:bold;
 	font-size:30px;
@@ -40,8 +41,8 @@ h1{
 
 #panel1{
 	//border-radius:20px;
-	position:fixed;
-	bottom:3%;
+	position:absolute;
+	bottom:1%;
 	left:36%;
 	width:26%;
 	padding:20px;
@@ -65,7 +66,7 @@ h1{
 }
 
 .range-slider{
-	width:50%;
+	width:200px;
 }
 
 #forward{

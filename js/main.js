@@ -28,7 +28,7 @@ function onEachFeature(feature, layer) {
     };
 };
 */
-
+/*
 function search(data){
 	var attributes=[];
 	
@@ -68,7 +68,7 @@ function search(data){
 		markersLayer.addLayer(marker);
 	};
 }
-
+*/
 function calcPropRadius(attValue){
 	//scale factor to adjust symbol size evenly
 	var scaleFactor=3;
@@ -79,10 +79,41 @@ function calcPropRadius(attValue){
 	return radius;
 }
 
+function Popup(properties, attribute, layer, radius){
+	this.properties=properties;
+	this.attribute=attribute;
+	this.layer=layer;
+	//add formatted attribute to panel content string
+	this.year=attribute.split("_")[1];
+	this.crime=this.properties[attribute];
+	//add city to popup content string
+	this.content="<p><b>City: </b>"+this.properties.City+"</p><p><b>Crime Index in "+this.year+": </b>"+this.crime+"</p>";
+	
+	//replace the layer popup
+	this.bindToLayer=function(){
+		this.layer.bindPopup(this.content,{
+			offset:new L.Point(0,-radius)
+		});
+	};
+	//event listeners to open popup on hover and fill panel on click
+	this.layer.on({
+		mouseover:function(){
+			this.openPopup();
+		},
+		
+		mouseout:function(){
+			this.closePopup();
+		},
+		
+		click:function(){
+			$("#panel2").html(this.content);
+		}
+	});
+};
+
 //function to convert markers to circle markers
 function pointToLayer(feature,latlng, attributes){
 	//determine which attribute to visualize with proportional symbols
-	//var attribute="Cri_2015";
 	//assign the current attribute based on the first index of the attributes array
 	var attribute=attributes[0];
 	
@@ -104,6 +135,13 @@ function pointToLayer(feature,latlng, attributes){
 	//create circle marker layer
 	var layer=L.circleMarker(latlng, options);
 	
+	//create new popup
+	var popup=new Popup(feature.properties, attribute, layer, options.radius);
+	
+	//add popup to circle marker
+	popup.bindToLayer();
+	//createPopup(feature.properties, attribute, layer, options.radius);
+	/*
 	//build popup content string
 	var popupContent="<p><b>City: </b>"+feature.properties.City+"</p>";
 	
@@ -115,23 +153,7 @@ function pointToLayer(feature,latlng, attributes){
 	layer.bindPopup(popupContent,{
 		offset:new L.Point(0,-options.radius)
 	});
-	
-	//event listeners to open popup on hover and fill panel on click
-	layer.on({
-		mouseover:function(){
-			this.openPopup();
-		},
-		
-		mouseout:function(){
-			this.closePopup();
-		},
-		
-		click:function(){
-			$("#panel2").html(popupContent);
-			//$("#panel3").html(popupContent);
-		}
-	});
-	
+	*/
 	//return the circle marker to the L.geoJson pointToLayer option
     return layer;
 };
@@ -158,6 +180,13 @@ function updatePropSymbols(map, attribute){
 			var radius=calcPropRadius(props[attribute]);
 			layer.setRadius(radius);
 			
+			//create new popup
+			var popup=new Popup(props, attribute, layer, radius);
+			
+			//add popup to circle marker
+			popup.bindToLayer();
+			//createPopup(props, attribute, layer, radius);
+			/*
 			//add city to popup content string
 			var popupContent="<p><b>City: </b>"+props.City+"</p>";
 			
@@ -169,6 +198,7 @@ function updatePropSymbols(map, attribute){
 			layer.bindPopup(popupContent,{
 				offset: new L.Point(0,-radius)
 			});	
+			*/
 		};
 	});
 };
