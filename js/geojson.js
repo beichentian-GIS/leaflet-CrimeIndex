@@ -30,7 +30,7 @@ function onEachFeature(feature, layer) {
         layer.bindPopup(popupContent);
     };
 };
-
+/*
 //function to retrieve the data and place it on the map
 function getData(map){
     //load the data
@@ -60,11 +60,11 @@ function getData(map){
         }
     });
 };
+*/
 
-$(document).ready(createMap);
 
 //function to retrieve the data and place it on the map
-/*
+
 function getData(map){
     //load the data
     $.ajax("data/MegaCitiesGeo.geojson", {
@@ -104,4 +104,4 @@ function getData(map){
         }
     });
 };
-*/
+$(document).ready(createMap);

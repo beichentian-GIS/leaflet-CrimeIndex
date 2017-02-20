@@ -1,16 +1,91 @@
 /* Stylesheet by Beichen Tian, 2017.01 */
 
-#mapid{
-	border-radius:20px;
-	width:1000px;
-	height:700px;
-	position: absolute;
-	top:12%;
-	right:25%;
+#menu{
+	position:relative;
+	height:70px;
+	top:-8px;
+	margin:0;
+	background-color:#000;
+	//display:inline-block;
 }
 
 h1{
+	position:absolute;
+	top:3px;
+	left:340px;
+	text-align=center;
 	font-style:italic;
 	font-weight:bold;
+	font-size:30px;
 	font-family:Gill Sans MT;
+	color:#fff;
+}
+
+#mapid{
+	width:75%;
+	height:80%;
+	position: absolute;
+	left:13%;
+	top:70px;
+	margin:0px auto;
+	display:inline-block;
+}
+
+.leaflet-popup-content p {
+	margin: 0.1em 0;
+	font-family:Gill Sans MT;
+	font-size:115%;
+	line-height:15%;
+}
+
+#panel1{
+	//border-radius:20px;
+	position:fixed;
+	bottom:3%;
+	left:36%;
+	width:26%;
+	padding:20px;
+	vertical-align:top;
+	text-align: center;
+	line-height: 42px;
+	//height:25px;
+	//background-color:#A9A9A9;
+	display:inline-block;
+	
+}
+
+.sequence-control-container {
+    width: 350px;
+    height: 30px;
+    background-color: rgba(255,255,255,0.8);
+    padding: 10px;
+    line-height: 45px;
+    text-align: center;
+    border: solid gray 1px;
+}
+
+.range-slider{
+	width:50%;
+}
+
+#forward{
+	float:right;
+}
+
+#reverse{
+	float:left;
+}
+
+#panel2{
+	width:16%;
+	padding:20px;
+	vertical-align:left;
+	display:inline-block;
+}
+
+#panel3{
+	width:16%;
+	padding:20px;
+	vertical-align:right;
+	display:inline-block;
 }
