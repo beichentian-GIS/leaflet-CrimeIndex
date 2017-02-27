@@ -6,8 +6,7 @@ function createMap(){
     var map = L.map('mapid', {
         center: [38, -97],
         zoom: 5,
-		minZoom:4
-		
+		minZoom:4,
     });
 	
 	//add esri base tilelayer
@@ -16,59 +15,32 @@ function createMap(){
 };
 
 /*
-function onEachFeature(feature, layer) {
-    //no property named popupContent; instead, create html string with all properties
-    var popupContent = "";
-    if (feature.properties) {
-        //loop to add feature property names and values to html string
-        for (var property in feature.properties){
-            popupContent += "<p>" + property + ": " + feature.properties[property] + "</p>";
-        }
-        layer.bindPopup(popupContent);
-    };
-};
-*/
-/*
-function search(data){
-	var attributes=[];
-	
-	//properties of the first feature in the dataset
-	var properties=data.features[0].properties;
-	
-	//push each attribute name into attribute array
-	for (var attribute in properties){
-		//only take attributes with population values
-		if (attribute.indexOf("City")> -1){
-			attributes.push(attribute);
-		};
-	};
-	//console.log(attributes);
-	return attributes;
-	
-	var searchLayer = new L.LayerGroup();	//layer contain searched elements
-	
-	map.addLayer(searchLayer);
+var DarkGray=L.esri.basemapLayer("DarkGray",{minZoom:4}),
+	Topographic=L.esri.basemapLayer("Topographic",{minZoom:4});
 
+var map=L.map('mapid', {
+	center: [38, -97],
+    zoom: 5,
+	minZoom:4
+	layers:[DarkGray]
+});
+*/
+function search(map, data, pointLayer){
 	var controlSearch = new L.Control.Search({
 		position:'topleft',		
-		layer: searchLayer,
-		initial: false,
-		zoom: 12,
-		marker: false
+		layer: pointLayer,
+		propertyName:"City",
+		marker: false,
+		moveToLocation: function(latlng, title, map) {
+			//map.fitBounds( latlng.layer.getBounds() );
+			console.log(latlng)
+			//var zoom = map.getBoundsZoom(latlng.layer.getBounds());
+  			map.setView(latlng,12); // access the zoom
+		}
 	});
+	map.addControl(controlSearch);
+};
 
-	map.addControl( controlSearch );
-
-	//populate map with markers from sample data
-	for(i in attributes) {
-		var title = attributes[i].City,	//value searched
-			loc = attributes[i].loc,		//position found
-			marker = new L.Marker(new L.latLng(loc), {title: title} );//se property searched
-		marker.bindPopup('City Name: '+ City);
-		markersLayer.addLayer(marker);
-	};
-}
-*/
 function calcPropRadius(attValue){
 	//scale factor to adjust symbol size evenly
 	var scaleFactor=3;
@@ -99,10 +71,14 @@ function Popup(properties, attribute, layer, radius){
 	this.layer.on({
 		mouseover:function(){
 			this.openPopup();
+				this.setStyle({fillColor:"red"});
+				this.setStyle({color:"#000"});
 		},
 		
 		mouseout:function(){
 			this.closePopup();
+				this.setStyle({fillColor:"#FF4500"});
+				this.setStyle({color:"#000"});
 		},
 		
 		click:function(){
@@ -113,6 +89,12 @@ function Popup(properties, attribute, layer, radius){
 
 //function to convert markers to circle markers
 function pointToLayer(feature,latlng, attributes){
+	/*
+	var baseMaps={
+		"Dark Gray":DarkGray,
+		"Topographic":Topographic
+	};
+	*/
 	//determine which attribute to visualize with proportional symbols
 	//assign the current attribute based on the first index of the attributes array
 	var attribute=attributes[0];
@@ -152,21 +134,53 @@ function pointToLayer(feature,latlng, attributes){
 	//bind the popup to the circle marker
 	layer.bindPopup(popupContent,{
 		offset:new L.Point(0,-options.radius)
+		closeButton: false 
 	});
+	
+	//event listeners to open popup on hover and fill panel on click
+    layer.on({
+        mouseover: function(){
+            this.openPopup();
+        },
+        mouseout: function(){
+            this.closePopup();
+        },
+        click: function(){
+            $("#pane2").html(panelContent);
+        }
+    });
 	*/
 	//return the circle marker to the L.geoJson pointToLayer option
     return layer;
+	/*
+	var cities = L.geoJson(data, {
+        pointToLayer: function (feature, latlng) {           
+			//create circle marker layer
+			var layer = L.circleMarker(latlng, options);
+			return layer;
+		}
+	});
+	
+	var overlayMaps = {
+		"Cities": cities
+	};
+	
+	var overlayMaps=
+	L.control.layers(baseMaps,overlayMaps).addTo(map);
+	*/
 };
 
 //add circle markers for point features to the map
 function createPropSymbols(data, map, attributes){
     //create a Leaflet GeoJSON layer and add it to the map
-    L.geoJson(data,{
+    var pointLayer=L.geoJson(data,{
 		pointToLayer: function(feature, latlng){
 			return pointToLayer(feature, latlng, attributes);
 		}
 	//onEachFeature: onEachFeature,		
 	}).addTo(map);
+	
+	search(map,data,pointLayer)
 };
 
 function updatePropSymbols(map, attribute){
@@ -203,11 +217,57 @@ function updatePropSymbols(map, attribute){
 	});
 };
 
+function updatePanel(properties, attribute, layer){
+	
+    var popupContent="<p><b>City: </b>"+properties.City+"</p>";
+	// add extra information
+    popupContent+="<p><b>Crime Index in "+year+": </b>"+properties[attribute]+"</p>";
+	
+	if (properties.City == $(".City").html())
+	{
+	$("#panel2").html(popupContent);	
+	
+	};
+	layer.on({
+        click: function(){
+			
+            $("#panel2").html(popupContent);
+			
+        }
+    });
+	
+};
+
 //create new sequence control
 function createSequenceControls(map, attributes){
+	var SequenceControl=L.Control.extend({
+		options:{
+			position:"bottomleft"
+		},
+		
+		onAdd:function(map){
+			//create the control container div with a a particular class name
+			var container=L.DomUtil.create("div","sequence-control-container");
+			
+			//create range input element (slider)
+			$(container).append('<input class="range-slider" type="range">');
+			
+			//add skip buttons
+			$(container).append('<button class="skip" id="reverse" title="Reverse">Reverse</button>');
+			$(container).append('<button class="skip" id="forward" title="Forward">Skip</button>');
+			
+			//kill any mouse event listeners on the map
+			$(container).on('mousedown dblclick',function(e){
+				L.DomEvent.stopPropagation(e);
+			});
+			return container;
+		}
+	});
+	map.addControl(new SequenceControl());
+	/*
 	//create range input element (slider)
 	$("#panel1").append('<input class="range-slider" type="range">');
-	
+	*/
 	//set slider attributes
 	$(".range-slider").attr({
 		max:14,
@@ -255,6 +315,25 @@ function createSequenceControls(map, attributes){
 		//pass new attribute to update symbols
 		updatePropSymbols(map,attributes[index]);
 	});
+};
+
+function createLegend(map, attributes){
+	var LegendControl=L.Control.extend({
+		options:{
+			position:"bottomright"
+		},
+		
+		onAdd:function(map){
+			//create the control container with a particular class name
+			var container=L.DomUtil.create("div","legend-control-container");
+			
+			//create temporal legend
+			
+			
+			return container;
+		}
+	});
+	map.addControl(new LegendControl());
 };
 
 function processData(data){
