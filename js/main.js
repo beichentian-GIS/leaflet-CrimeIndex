@@ -2,29 +2,33 @@
 
 //function to instantiate the Leaflet map
 function createMap(){
-    //create the map
-    var map = L.map('mapid', {
-        center: [38, -97],
-        zoom: 5,
-		minZoom:4,
-    });
-	
 	//add esri base tilelayer
-	L.esri.basemapLayer("DarkGray").addTo(map);
+	var DarkGray=L.esri.basemapLayer("DarkGray",{minZoom:4}),
+	Topographic=L.esri.basemapLayer("Topographic",{minZoom:4});
+	//create the map
+	var map=L.map('mapid', {
+		center: [38, -97],
+		zoom: 5,
+		minZoom:4,
+		layers:[DarkGray],
+		maxBounds:[
+			[75,-170],
+			[0,-30]
+		],
+		//zoomControl:false
+	});
+
+	var baseMaps={
+		"DarkGray":DarkGray,
+		"Topographic":Topographic,
+	};
+
+	L.control.layers(baseMaps).addTo(map);
+	L.control.navbar().addTo(map);
+	//L.esri.basemapLayer("DarkGray").addTo(map);
 	getData(map);
 };
 
-/*
-var DarkGray=L.esri.basemapLayer("DarkGray",{minZoom:4}),
-	Topographic=L.esri.basemapLayer("Topographic",{minZoom:4});
-
-var map=L.map('mapid', {
-	center: [38, -97],
-    zoom: 5,
-	minZoom:4
-	layers:[DarkGray]
-});
-*/
 function search(map, data, pointLayer){
 	var controlSearch = new L.Control.Search({
 		position:'topleft',		

@@ -1,5 +1,10 @@
 /* Stylesheet by Beichen Tian, 2017.01 */
 
+@font-face{
+	font-family:MisdemeanorDEMO-KCFonts;
+	src:url("font/MisdemeanorDEMO-KCFonts.ttf");
+}
+
 body{
 	margin:0;
 	height:100%;
@@ -11,15 +16,15 @@ body{
 	//display:inline-block;
 }
 
-h1{
-	position:absolute;
-	top:0;
-	left:17%;
+p1{
+	//position:absolute;
 	font-style:italic;
 	font-weight:bold;
 	font-size:30px;
 	font-family:Gill Sans MT;
 	color:#fff;
+	line-height: 2.3em;
+	//font-family:MisdemeanorDEMO-KCFonts;
 }
 
 #mapid{
@@ -37,6 +42,10 @@ h1{
 	font-family:Gill Sans MT;
 	font-size:115%;
 	line-height:15%;
+}
+
+.leaflet-control-layers-base{
+	text-align:left;
 }
 
 #panel1{
