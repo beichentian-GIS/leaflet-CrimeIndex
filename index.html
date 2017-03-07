@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width">
-		<title>Leaflet Mapping</title>
+		<title>Crime Index Change</title>
 
 		<!--put your external stylesheet links here-->
 		<link rel="stylesheet" href="css/style.css">
@@ -17,16 +17,27 @@
 	</head>
 
 	<body>
-		<div id="menu" align="center">
-			<center>
-				<p1>Crime Index Changes Among The Most Populous Cities of 48 U.S. States, from Year 2001 To 2015</p1>
-			</center>
-		</div>
+		<!--div id="menu" align="center"></div-->
+		<center>
+			<p1>Crime Index Changes Among The Most Populous Cities of 48 U.S. States, from Year 2001 To 2015</p1>
+		</center>
+		
 		<div id="mapid" align="center"></div>
 		
 		<!--div id="panel1"></div-->
-		<div id="panel2"></div>
-		<div id="panel3"></div>
+		<div id="panel2">
+			<p>Dynamic city infomation will be showed here when proportional symbol is clicked.</p>
+		</div>
+		<div id="panel3">
+			<p>During the presidential campaign last year, topics on crime justice and crime control were discussed frequently by the final two candidates. Major differences in stands were further debated on whether crime issues could be mitigated by strengthening police power and law enforcement, or by addressing the systematic racism in criminal justice system.</p>
+			<p>In regardless of which theory is more reliable, <a href="https://www.usnews.com/news/national-news/articles/2016-12-28/murders-rise-in-us-cities-but-crime-rate-hovers-near-historic-lows">the recent soaring increases in murder rate</a> and/ or other types of violent crimes (e.g. rapes, robberies, assaults) in large American cities such as <a href="http://www.city-data.com/crime/crime-Chicago-Illinois.html">Chicago</a>, <a href="http://www.city-data.com/crime/crime-Milwaukee-Wisconsin.html">Milwaukee</a> and <a href="http://www.city-data.com/crime/crime-Baltimore-Maryland.html">Baltimore</a>, have brought urban crime issues to the front desk of all cities' decision makers. </p>
+			<p>This map shows the crime indexes for total 48 most populous U.S. cities relative to their respective states. In addition, by sequencing through the crime index changes of the cities from 2001 to 2015, the map may provide users certain insights on how to construct a healthier and safer urban environment.</p>
+			<p><b>Data Source:</b> <a href="http://www.city-data.com/">City Data</a></p>
+			<p><b>Note:</b> better viewed in 20.8in * 17.7in PC screen.</p>
+		</div>
+		<!--svg id="Layer_1" width="180px" height="180px">
+			<circle fill="#FF4500" fill-opacity="0.4" stroke="#000000" stroke-miterlimit="10" cx="90" cy="90.001" r="89.5"/>
+		</svg-->
 		<!--put your external script links here-->
 		<script type="text/javascript" src="lib/leaflet/leaflet.js"></script>
 		<script type="text/javascript" src="lib/jquery-3.1.1.js"></script>
