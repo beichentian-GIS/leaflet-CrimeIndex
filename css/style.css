@@ -1,10 +1,5 @@
 /* Stylesheet by Beichen Tian, 2017.03 */
 
-@font-face{
-	font-family:MetalCrime;
-	src:url("font/MetalCrime.ttf");
-}
-
 body{
 	margin:0;
 	height:100%;
@@ -19,7 +14,6 @@ p1{
 	font-family:Gill Sans MT;
 	color:#fff;
 	line-height: 2.15em;
-	//font-family:MetalCrime;
 }
 
 #mapid{
@@ -40,12 +34,12 @@ p1{
 .legend-control-container{
 	border-radius:20px;
 	width:250px;
-    height:200px;
+    height:350px;
     line-height: 50%;
     text-align: center;
-	background-color:rgba(255,255,255,0.3);
+	background-color:rgba(255,255,255,0.5);
 	font-family:Gill Sans MT;
-	font-size:180%;
+	font-size:160%;
 	padding:10px;
 }
 
@@ -55,6 +49,46 @@ p1{
 	margin-top:5px;
 	margin-bottom:-1px;
 	line-height: 15%;
+}
+
+#orange{
+	background-image:url('../img/orange.png');
+	background-repeat: no-repeat;
+	margin-top:4px;
+	padding-bottom:0.5em;
+	margin-left:1em;
+	height: 14%;
+	width: 80%;
+	border: none;
+	background-color:rgba(255,255,255,0);
+	font-family:Gill Sans MT;
+	font-size:90%;
+}
+
+#green{
+	background-image:url('../img/green.png');
+	background-repeat: no-repeat;
+	padding-bottom:0.5em;
+	margin-left:1em;
+	height: 14%;
+	width: 80%;
+	border: none;
+	background-color:rgba(255,255,255,0);
+	font-family:Gill Sans MT;
+	font-size:90%;
+}
+
+#gray{
+	background-image:url('../img/gray.png');
+	background-repeat: no-repeat;
+	padding-bottom:0.5em;
+	margin-left:1em;
+	height: 14%;
+	width: 80%;
+	border: none;
+	background-color:rgba(255,255,255,0);
+	font-family:Gill Sans MT;
+	font-size:90%;
 }
 
 .leaflet-popup-content p {

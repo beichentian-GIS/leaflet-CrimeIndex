@@ -278,9 +278,9 @@ function createLegend(map, attributes){
 			//start attribute legend svg string
 			var svg='<svg id="attribute-legend" width="250px" height="220px">';
 			//var svg='<svg id="attribute-legend" width="500px" height="500px">';
-			var svg1='<svg id="attribute-legend" width="250px" height="220px">';
-			var svg2='<svg id="attribute-legend" width="250px" height="220px">';
-			var svg3='<svg id="attribute-legend" width="250px" height="220px">';
+			//var svg1='<svg id="attribute-legend" width="250px" height="220px">';
+			//var svg2='<svg id="attribute-legend" width="250px" height="220px">';
+			//var svg3='<svg id="attribute-legend" width="250px" height="220px">';
 			
 			//array of circle names to base loop on
 			var circles={
@@ -299,32 +299,31 @@ function createLegend(map, attributes){
 			
 			//close svg string
 			svg+="</svg>";
-			
-			svg1+='<circle class="legend-circle" fill="#FF4500" fill-opacity="0.4" stroke="#000000" stroke-width="1" cx="165"/>';
-			svg1+="</svg>";
-			
-			svg2+='<circle class="legend-circle" fill="#228B22" fill-opacity="0.4" stroke="#000000" stroke-width="1" cx="165"/>';
-			svg2+="</svg>";
-			
-			svg3+='<circle class="legend-circle" fill="#D3D3D3" fill-opacity="0.4" stroke="#000000" stroke-width="1" cx="165"/>';
-			svg3+="</svg>";
-			
+			//add static circles to container
+			$(container).append('<button class="staticLegend" id="orange" title="Orange" style="hspace:50">Above Average</button>');
+			$(container).append('<button class="staticLegend" id="green" title="Green" style="hspace:50">Below Average</button>');
+			$(container).append('<button class="staticLegend" id="gray" title="Gray" style="hspace:20">No Data</button>');
 			//add attribute legend svg to container
 			$(container).append(svg);
 			
-			$(container).append(svg1);
-			$(container).append(svg2);
-			$(container).append(svg3);
-			console.log(container);
+			//kill any mouse event listeners on the map
+			$(container).on('mousedown dblclick',function(e){
+				L.DomEvent.stopPropagation(e);
+			});
+			//function to switch the legend opacity when mouse hovers over the legend 
+			$(document).ready(function() {
+				$(container).css("opacity", 0.2);
+				$(container).hover(function() {
+					$(this).animate({opacity: 1.0}, 100);
+				}, function() {
+					$(this).animate({opacity: 0.2}, 100);
+				});
+			});
 			return container;
-			
 		}
+		
 	});
 	map.addControl(new LegendControl());
-	
-	//$(container).append(svg1);
-	//$(container).append(svg2);
-	//$(container).append(svg3);
 	
 	updateLegend(map,attributes[0]);
 };
